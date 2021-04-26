@@ -1,11 +1,16 @@
 # ttsx
 天天生鲜购物网站
-安装 django-admin 脚手架
-python install django==2.2
-django-admin
+
+脚手架 python install django==2.2
+安装django命令:`pip install django`
+
+安装 `django-admin` 
+
+`django-admin`
 
 生成：
-  你的目录名称
+  ```text
+你的目录名称
    hello_reg  # 目录
         hello_reg  # 目录
             __init__.py
@@ -23,16 +28,43 @@ django-admin
             views.py # 视图文件，在该文件中编写与视图相关的代码
         db.sqlite3
         manage.py
+```
   
   创建 app项目名称：
-    python manage.py startapp  名称自定义
+    `python manage.py startapp  名称自定义`
     
  
+ ce 进入文件夹目录
   
+ 使用：`pyhton manage.py startapp  APP名称`
+ 
+ 之后多出的目录就是上面注释的目录
+ 
+ 在app目录下的views.py 文件下添加方法,
+ 导入HttpResponse模块
+ ```python
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+
+
+def hello(request):
+    return HttpResponse("hello world!")
+```
+
+在 urls.py 文件下添加路径映射或者叫路由
+```python
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('hello/', views.hello), # 新添加
+]
+
+```
+
+之后命令行运行`python manage.py runserver`
+
 
 
 创建数据库
-```sql
-create databases ttsx charset=utf-8
-
-```
+`create databases ttsx charset=utf-8`
