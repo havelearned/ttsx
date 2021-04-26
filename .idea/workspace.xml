@@ -19,7 +19,43 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="hello" />
+    <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="hello">
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/hello_reg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/hello_reg/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/hello_reg/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/hello_reg/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/hello_reg/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-DjangoHello/hello_reg/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/cart/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/cart/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/cart/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/cart/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/cart/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/cart/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/cart/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/goods/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/goods/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/goods/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/goods/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/goods/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/goods/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/goods/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/ttsx/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/ttsx/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/ttsx/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/ttsx/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx/ttsx/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619425829605</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hello">
+      <created>1619426277080</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619426277080</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,14 +130,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="0" y="58" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1619426102783" />
-    <state x="109" y="153" key="Vcs.Push.Dialog.v2" timestamp="1619426113189">
+    <state x="109" y="153" key="Vcs.Push.Dialog.v2" timestamp="1619426778363">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="109" y="153" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1619426113189" />
-    <state x="593" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619426071879">
+    <state x="109" y="153" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1619426778363" />
+    <state x="593" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619426938051">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="593" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1619426071879" />
+    <state x="593" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1619426938051" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1619422266633">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
