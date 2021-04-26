@@ -19,31 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="项目创建">
-      <change beforePath="$PROJECT_DIR$/.idea/ttsx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ttsx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/ttsx/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/ttsx/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/ttsx/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/ttsx/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/ttsx/wsgi.py" beforeDir="false" />
-    </list>
+    <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="hello" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619422813581</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hello">
+      <created>1619425829605</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619425829605</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,13 +79,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目创建" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目创建" />
+    <MESSAGE value="hello" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="109" y="153" key="Vcs.Push.Dialog.v2" timestamp="1619423236691">
+    <state x="0" y="58" key="DiffContextDialog" timestamp="1619426102783">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="109" y="153" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1619423236691" />
+    <state x="0" y="58" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1619426102783" />
+    <state x="109" y="153" key="Vcs.Push.Dialog.v2" timestamp="1619426113189">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="109" y="153" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1619426113189" />
+    <state x="593" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619426071879">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="593" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1619426071879" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1619422266633">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
