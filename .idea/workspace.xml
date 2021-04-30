@@ -20,42 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="hello">
+      <change beforePath="$PROJECT_DIR$/.idea/ttsx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ttsx.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/helloApp/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/hello_reg/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/hello_reg/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/hello_reg/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/hello_reg/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/hello_reg/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-DjangoHello/hello_reg/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/cart/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/goods/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/ttsx/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/ttsx/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/ttsx/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/ttsx/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx/ttsx/wsgi.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -109,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619426277080</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hello">
+      <created>1619747654426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619747654426</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,10 +112,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="60" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1619742437469" />
-    <state x="109" y="153" key="Vcs.Push.Dialog.v2" timestamp="1619426778363">
+    <state x="109" y="153" key="Vcs.Push.Dialog.v2" timestamp="1619747676806">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="109" y="153" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1619426778363" />
+    <state x="109" y="153" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1619747676806" />
     <state x="593" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619426938051">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
