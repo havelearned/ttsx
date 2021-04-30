@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="hello">
-      <change afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619752279800</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hello">
+      <created>1619753190286</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619753190286</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,10 +149,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="60" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1619742437469" />
-    <state x="109" y="153" key="Vcs.Push.Dialog.v2" timestamp="1619752305575">
+    <state x="109" y="153" key="Vcs.Push.Dialog.v2" timestamp="1619753398616">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="109" y="153" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1619752305575" />
+    <state x="109" y="153" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1619753398616" />
     <state x="593" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619751716102">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

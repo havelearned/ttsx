@@ -193,9 +193,19 @@ TEMPLATES = [
         },
     },
 ]
+
+....
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
 ```
 
 注意入os模块
+
+> 'DIRS': ['DIRS': [os.path.join(BASE_DIR), 'template'],],  让Django认识template目录
+>
+>  os.path.join(BASE_DIR, 'static') 识别可导入静态资源
 
 
 
