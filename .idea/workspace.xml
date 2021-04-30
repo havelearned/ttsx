@@ -20,12 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="hello">
-      <change afterPath="$PROJECT_DIR$/git.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,11 +49,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Python\ttsx\ttsx_dev_01\templates" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -89,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619751709139</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hello">
+      <created>1619752279800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619752279800</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,17 +143,17 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="60" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1619742437469" />
-    <state x="109" y="153" key="Vcs.Push.Dialog.v2" timestamp="1619751761198">
+    <state x="109" y="153" key="Vcs.Push.Dialog.v2" timestamp="1619752305575">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="109" y="153" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1619751761198" />
+    <state x="109" y="153" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1619752305575" />
     <state x="593" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619751716102">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="593" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1619751716102" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1619429201857">
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1619752390789">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1619429201857" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1619752390789" />
   </component>
 </project>

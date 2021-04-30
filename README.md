@@ -175,5 +175,29 @@ Superuser created successfully.
 
 
 
+添加模板文件 、静态资源
+
+在根目录下创建 templates目录；
+
+
+
+修改settings.py文件，添加templates路径
+
+```python
+TEMPLATES = [
+    {
+        ....
+        'DIRS': ['DIRS': [os.path.join(BASE_DIR), 'template'],],
+			....
+            ],
+        },
+    },
+]
+```
+
+注意入os模块
+
+
+
 
 
