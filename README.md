@@ -1,6 +1,8 @@
 # ttsx
 天天生鲜购物网站
 
+## 安装Django框架
+
 脚手架 python install django==2.2
 安装django命令:`pip install django`
 
@@ -21,8 +23,9 @@
   
   ```
 
-  创建 app项目名称：
-    `python manage.py startapp  名称自定义`
+###   创建 app项目名称：
+
+​    `python manage.py startapp  名称自定义`
 
 根目录下多个下面的目录：
 
@@ -83,13 +86,7 @@ pymysql.install_as_MySQLdb()
 
 
 
-
-
-
-
-
-
-settings.py文件 配置数据源
+### settings.py文件 配置数据源
 
 ```python
 DATABASES={
@@ -149,7 +146,7 @@ class className(models.Model):
 
 
 
-设置 项目后台账号和密码
+### 设置 项目后台账号和密码
 
 ```bash
 E:\Python\ttsx\ttsx_dev_01>python manage.py createsuperuser

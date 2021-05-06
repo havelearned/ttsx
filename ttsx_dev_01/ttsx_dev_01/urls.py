@@ -20,5 +20,6 @@ from ttsx_dev import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', views.hello), # 新添加
-    path('index/', views.index) # 访问index请求 访问index.html 页面
+    path('index/', views.index), # 访问index请求 访问index.html 页面
+    path('login/', views.login)
 ]
