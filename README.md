@@ -204,6 +204,29 @@ STATICFILES_DIRS = [
 >
 >  os.path.join(BASE_DIR, 'static') 识别可导入静态资源
 
+数据库的的表添加数据
+- 首先需要在amdin后台添加要现实的表明
+找到admin.py 文件
+```python
+from django.contrib import admin
+from ttsx_dev import models
+class UserAdmin(admin.ModelAdmin):
+    # 后台显示的字段
+    list_display = ('user_name', 'pwd', 'status', 'phone')
+
+    # 搜素字段
+    search_fields = ['user_name']
+
+    # 过滤字段
+    list_filter = ['user_name']
+
+
+admin.site.register(models.User, UserAdmin)
+```
+ 导入app包下的 models.py文件
+ admin.site.register(models.User, UserAdmin) models.User 就是数据库的表名，对于admin后台的UserAdmin这个类
+ 其他表都是这个样子设置
+ 
 
 
 
