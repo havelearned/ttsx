@@ -1,156 +1,57 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>登录页</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue@latest/dist/vue.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios@0.18.0/dist/axios.min.js"></script>
-    <!-- 引入样式 -->
-    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
-    <!-- 引入组件库 -->
-    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>天天生鲜-登录</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css">
 </head>
 <body>
-<div id="app">
-    <center>
-        <el-container style="width: 50%;height: 50%;">
-            <el-header>登录</el-header>
+	<div class="login_top clearfix">
+		<a href="index.html" class="login_logo"><img src="/static/images/logo02.png"></a>
+	</div>
 
-            <el-main>
-                    <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" label-width="100px"
-                             class="demo-ruleForm">
+	<div class="login_form_bg">
+		<div class="login_form_wrap clearfix">
+			<div class="login_banner fl"></div>
+			<div class="slogan fl">日夜兼程 · 急速送达</div>
+			<div class="login_form fr">
+				<div class="login_title clearfix">
+					<h1>用户登录</h1>
+					<a href="/register">立即注册</a>
+				</div>
+				<div class="form_input">
+					<form action="/login/" method="POST">
+						{%csrf_token%}
+						<input type="text" name="user_name" class="name_input" placeholder="请输入用户名">
+						<div class="user_error">输入错误</div>
+						<input type="password" name="pwd" class="pass_input" placeholder="请输入密码">
+						<div class="pwd_error" style="display:block">{{error}}</div>
+						<div class="more_input clearfix">
+							<input type="checkbox" name="">
+							<label>记住用户名</label>
+							<a href="#">忘记密码</a>
+						</div>
+						<input type="submit" name="" value="登录" class="input_submit">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
-                        <el-form-item label="账号" prop="pass" >
-                            <el-input  type="password" v-model="ruleForm.pass" autocomplete="off"></el-input>
-                        </el-form-item>
-                        <el-form-item label="密码" prop="checkPass">
-                            <el-input type="password" v-model="ruleForm.checkPass" autocomplete="off"></el-input>
-                        </el-form-item>
-                        <el-form-item label="确认密码" prop="age">
-                            <el-input v-model.number="ruleForm.age"></el-input>
-                        </el-form-item>
-                        <el-form-item>
-                            <el-button type="primary" @click="submitForm('ruleForm')">提交</el-button>
-                            <el-button @click="resetForm('ruleForm')">重置</el-button>
-                        </el-form-item>
-
-                    </el-form>
-
-            </el-main>
-
-
-        </el-container>
-    </center>
-</div>
-
+	<div class="footer no-mp">
+		<div class="foot_link">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">招聘人才</a>
+			<span>|</span>
+			<a href="#">友情链接</a>		
+		</div>
+		<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
+		<p>电话：010-****888    京ICP备*******8号</p>
+	</div>
+	
 </body>
-<script>
-    new Vue({
-        el:'#app',
-        data() {
-            var checkAge = (rule, value, callback) => {
-                if (!value) {
-                    return callback(new Error('密码不能为空'));
-                }
-                setTimeout(() => {
-                    if (!Number.isInteger(value)) {
-                        callback(new Error('请输入数字值'));
-                    } else {
-                        if (value >= 10) {
-                            callback(new Error('必须>=10位数'));
-                        } else {
-                            callback();
-                        }
-                    }
-                }, 1000);
-            };
-            var validatePass = (rule, value, callback) => {
-                if (value === '') {
-                    callback(new Error('请输入密码'));
-                } else {
-                    if (this.ruleForm.checkPass !== '') {
-                        this.$refs.ruleForm.validateField('checkPass');
-                    }
-                    callback();
-                }
-            };
-            var validatePass2 = (rule, value, callback) => {
-                if (value === '') {
-                    callback(new Error('请再次输入密码'));
-                } else if (value !== this.ruleForm.pass) {
-                    callback(new Error('两次输入密码不一致!'));
-                } else {
-                    callback();
-                }
-            };
-            return {
-                ruleForm: {
-                    pass: '',
-                    checkPass: '',
-                    age: ''
-                },
-                rules: {
-                    pass: [
-                        { validator: validatePass, trigger: 'blur' }
-                    ],
-                    checkPass: [
-                        { validator: validatePass2, trigger: 'blur' }
-                    ],
-                    age: [
-                        { validator: checkAge, trigger: 'blur' }
-                    ]
-                }
-            };
-        },
-        methods: {
-            submitForm(formName) {
-                this.$refs[formName].validate((valid) => {
-                    if (valid) {
-                        alert('submit!');
-                    } else {
-                        console.log('error submit!!');
-                        return false;
-                    }
-                });
-            },
-            resetForm(formName) {
-                this.$refs[formName].resetFields();
-            }
-        }
-    })
-
-</script>
-<style>
-    .el-header, .el-footer {
-        background-color: #B3C0D1;
-        color: #333;
-        text-align: center;
-        line-height: 60px;
-    }
-
-
-    .el-main {
-        background-color: #E9EEF3;
-        color: #333;
-        text-align: center;
-        line-height: 160px;
-    }
-
-    body > .el-container {
-        margin-bottom: 40px;
-    }
-
-    .el-container:nth-child(5) .el-aside,
-    .el-container:nth-child(6) .el-aside {
-        line-height: 260px;
-    }
-
-    .el-container:nth-child(7) .el-aside {
-        line-height: 320px;
-    }
-
-</style>
 </html>

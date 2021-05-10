@@ -16,7 +16,7 @@ class User(models.Model):
 
     user_name = models.CharField(max_length=100, unique=True, verbose_name='用户名称')  # 用户名称
     pwd = models.CharField(max_length=100, verbose_name='用户密码')  # 用户密码
-    status = models.IntegerField(verbose_name='状态', choices=STATUS_CHOICES)  # 状态
+    status = models.IntegerField(verbose_name='状态', choices=STATUS_CHOICES,default=NO)  # 状态
     phone = models.CharField(max_length=100, unique=True, verbose_name='手机号')  # 手机号
 
 

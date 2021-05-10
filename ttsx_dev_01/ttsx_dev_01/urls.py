@@ -19,7 +19,9 @@ from ttsx_dev import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/', views.hello), # 新添加
-    path('index/', views.index), # 访问index请求 访问index.html 页面
-    path('login/', views.login)
+    path('login/', views.login_view),
+    path('loginOut/', views.login_out),
+    path('register/', views.register_view),
+    # path('/', views.toIndex),
+
 ]
