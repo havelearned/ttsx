@@ -5,6 +5,31 @@ from ttsx_dev import models
 
 # Create your views here.
 
+# 首页
+def goodDetail(request, id):
+    good_Detail = models.Goods.objects.get(id=id)
+    return render(request, 'detail.html', {"good": good_Detail, 'user_name': request.session.get('user_name', None)})
+
+# 商品页面
+def index_view(reqeust):
+    goods_list = models.Goods.objects.all()
+    return render(reqeust, 'index.html',
+                  {"goods_list": goods_list, "user_name": reqeust.session.get('user_name', None)})
+
+
+def login_view2(request):
+    if request.method == 'POST':
+        print("hello")
+        user = models.User.objects.all()
+        print(user)
+        return HttpResponse(user)
+    else:
+        print("get")
+        user = models.User.objects.all()
+        print(user)
+        return HttpResponse(user)
+
+
 def login_view(request):
     if request.method == 'POST':  # 请求是否是 POSt
         user_name = request.POST.get('user_name', '')  # 获取请求参数
@@ -55,6 +80,3 @@ def register_view(request):
     else:  # 返回无数据
         return render(request, 'register.html')
         # return render(request, 'login.html')
-
-
-

@@ -111,7 +111,7 @@ class Goods(models.Model):
     img_url = models.ImageField(upload_to='img', verbose_name='商品图片地址')  # 商品图片地址
     price = models.FloatField(max_length=100, verbose_name='单价')  # 商品 单价格
     intro = models.CharField(max_length=100, verbose_name='介绍')  # 商品 介绍
-    unit = models.CharField(max_length=100, default=K, verbose_name='重量', choices=UNIT_CHOICES)  # 重量
+    unit = models.IntegerField( default=K, verbose_name='重量', choices=UNIT_CHOICES)  # 重量
     type_id = models.IntegerField(verbose_name='商品类型')  # 商品类型
 
 
