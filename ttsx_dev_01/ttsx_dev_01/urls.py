@@ -19,15 +19,17 @@ from ttsx_dev import views
 from django.conf.urls.static import static
 from django.conf import settings
 
-urlpatterns = [
-                  path('admin/', admin.site.urls),
-                  path('login/', views.login_view),
-                  path('loginOut/', views.login_out),
-                  path('register/', views.register_view),
-                  path('login_view2/', views.login_view2),
-
-                  path('index/', views.register_view),
-                  path('goodDetail/<int:id>/', views.login_view2),
-                  # path('/', views.toIndex),
-
-              ] + static(settings.IMG_URL, document_root=settings.IMG_ROOT)
+urlpatterns = [ path('admin/', admin.site.urls),
+                path('index/',views.toindex),
+                path('login/',views.tologin),
+                path('register/',views.toregister),
+                path('loging/',views.uselogin)
+                ]+ static(settings.IMG_URL, document_root=settings.IMG_ROOT)
+# path('login/', views.login_view),
+# path('loginOut/', views.login_out),
+# path('register/', views.register_view),
+# path('login_view2/', views.login_view2),
+#
+# path('index/', views.register_view),
+# path('goodDetail/<int:id>/', views.login_view2),
+# path('/', views.toIndex),

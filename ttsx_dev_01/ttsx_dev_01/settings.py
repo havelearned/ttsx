@@ -83,9 +83,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',  # 链接url
         'NAME': 'ttsxdb',  # 数据库名称
         'USER': 'root',  # 登录名称
-        'PASSWORD': 'mysql2020',  # 登录密码
-        # 'HOST': '121.196.106.152',  # IP地址
-        'HOST': 'localhost',  # IP地址
+        'PASSWORD': '3333',  # 登录密码
+        'HOST': '121.196.106.152',  # IP地址
+        # 'HOST': 'localhost',  # IP地址
         'PORT': '3306',  # 端口号
     }
 }
@@ -131,3 +131,7 @@ STATICFILES_DIRS = [
 
 IMG_URL = "/img/"
 IMG_ROOT = BASE_DIR / "img"
+
+
+# 解决 Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'

@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="hello">
+      <change beforePath="$PROJECT_DIR$/.idea/ttsx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ttsx.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/settings.py" afterDir="false" />
@@ -44,6 +47,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1rhGuyhDmTuHajvKTzEi5iS3mrD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -58,7 +69,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ttsx_dev_01/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
@@ -77,13 +88,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,6 +113,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ttsx_dev_01/manage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -115,7 +129,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -128,6 +142,7 @@
       <updated>1619421138255</updated>
       <workItem from="1620311513951" duration="98000" />
       <workItem from="1620311642025" duration="4230000" />
+      <workItem from="1621167444974" duration="9638000" />
     </task>
     <task id="LOCAL-00001" summary="项目创建">
       <created>1619422813581</created>
@@ -208,73 +223,11 @@
     <MESSAGE value="hello" />
     <option name="LAST_COMMIT_MESSAGE" value="hello" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="254" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620637115296">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="254" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1620637115296" />
-    <state x="214" y="18" key="#manage" timestamp="1620637144862">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="214" y="18" key="#manage/0.0.1600.860@0.0.1600.860" timestamp="1620637144862" />
-    <state width="1578" height="270" key="GridCell.Tab.0.bottom" timestamp="1620637340712">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1578" height="270" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1620637340712" />
-    <state width="1578" height="270" key="GridCell.Tab.0.center" timestamp="1620637340712">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1578" height="270" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1620637340712" />
-    <state width="1578" height="270" key="GridCell.Tab.0.left" timestamp="1620637340712">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1578" height="270" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1620637340712" />
-    <state width="1578" height="270" key="GridCell.Tab.0.right" timestamp="1620637340712">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1578" height="270" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1620637340712" />
-    <state width="1578" height="270" key="GridCell.Tab.1.bottom" timestamp="1620637340712">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1578" height="270" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1620637340712" />
-    <state width="1578" height="270" key="GridCell.Tab.1.center" timestamp="1620637340712">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1578" height="270" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1620637340712" />
-    <state width="1578" height="270" key="GridCell.Tab.1.left" timestamp="1620637340712">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1578" height="270" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1620637340712" />
-    <state width="1578" height="270" key="GridCell.Tab.1.right" timestamp="1620637340712">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1578" height="270" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1620637340712" />
-    <state x="301" y="60" key="SettingsEditor" timestamp="1620347457851">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="301" y="60" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1620347457851" />
-    <state x="593" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620638099237">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="593" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1620638099237" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1620959254208">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1620959254208" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/views.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ttsx$manage.coverage" NAME="manage Coverage Results" MODIFIED="1621169818355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ttsx_dev_01" />
   </component>
 </project>
