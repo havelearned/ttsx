@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/static/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/static/js/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +163,7 @@
       <workItem from="1620311513951" duration="98000" />
       <workItem from="1620311642025" duration="4230000" />
       <workItem from="1621167444974" duration="9675000" />
-      <workItem from="1621210641711" duration="9743000" />
+      <workItem from="1621210641711" duration="10045000" />
     </task>
     <task id="LOCAL-00001" summary="项目创建">
       <created>1619422813581</created>
@@ -239,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621177198037</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="push">
+      <created>1621220584103</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621220584104</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +256,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目创建" />
     <MESSAGE value="hello" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello" />
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
