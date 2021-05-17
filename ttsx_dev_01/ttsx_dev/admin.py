@@ -79,7 +79,7 @@ admin.site.register(models.OrderDetail, OrderDetailAdmin)
 
 class GoodsAdmin(admin.ModelAdmin):
     # 后台显示的字段
-    list_display = ('good_name', 'img_url', 'price', 'intro', 'unit')
+    list_display = ('good_name', 'img_url', 'price', 'intro', 'unit', 'goods_type')
 
     # 搜素字段
     search_fields = ['good_name', 'img_url', 'price', 'intro', 'unit']
@@ -93,7 +93,7 @@ admin.site.register(models.Goods, GoodsAdmin)
 
 class TypeAdmin(admin.ModelAdmin):
     # 后台显示的字段
-    list_display =['type_name']
+    list_display = ['type_name']
     # 搜素字段
     search_fields = ['type_name']
     # 过滤字段

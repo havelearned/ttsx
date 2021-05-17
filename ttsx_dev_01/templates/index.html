@@ -12,10 +12,9 @@
 <body>
 	<div class="header_con">
 		<div class="header">
-			<div class="welcome fl">欢迎来到天天生鲜!</div>
+			<div class="welcome fl">欢迎来到天天生鲜!</div> {{user_name}}
 			<div class="fr">
 				<div class="login_info fl">
-					欢迎您：<em>张 山</em>
 				</div>
 				<div class="login_btn fl">
 					<a href="/login">登录</a>
@@ -60,13 +59,17 @@
 	</div>
 
 	<div class="center_con clearfix">
+
 		<ul class="subnav fl">
-			<li><a href="#model01" class="fruit">新鲜水果</a></li>
-			<li><a href="#model02" class="seafood">海鲜水产</a></li>
-			<li><a href="#model03" class="meet">猪牛羊肉</a></li>
-			<li><a href="#model04" class="egg">禽类蛋品</a></li>
-			<li><a href="#model05" class="vegetables">新鲜蔬菜</a></li>
-			<li><a href="#model06" class="ice">速冻食品</a></li>
+			{% for type in type_list %}
+			<li><a href="#model01" class="fruit">{{type}}</a></li>
+			{%endfor%}
+<!--			<li><a href="#model01" class="fruit">新鲜水果</a></li>-->
+<!--			<li><a href="#model02" class="seafood">海鲜水产</a></li>-->
+<!--			<li><a href="#model03" class="meet">猪牛羊肉</a></li>-->
+<!--			<li><a href="#model04" class="egg">禽类蛋品</a></li>-->
+<!--			<li><a href="#model05" class="vegetables">新鲜蔬菜</a></li>-->
+<!--			<li><a href="#model06" class="ice">速冻食品</a></li>-->
 		</ul>
 		<div class="slide fl">
 			<ul class="slide_pics">
@@ -87,7 +90,7 @@
 
 	<div class="list_model">
 		<div class="list_title clearfix">
-			<h3 class="fl" id="model01">新鲜水果</h3>
+			<h3 class="fl" id="model01">水果</h3>
 			<div class="subtitle fl">
 				<span>|</span>
 				<a href="#">鲜芒</a>
@@ -100,28 +103,28 @@
 		<div class="goods_con clearfix">
 			<div class="goods_banner fl"><img src="/static/images/banner01.jpg"></div>
 			<ul class="goods_list fl">
-			<!--	{% for good in goods_list %}
+			{% for good in goods_list %}
 				<li>
 					<h4><a href="goodDetail/{{good.id}}">{{good.good_name}}</a></h4>
-					<a href="goodDetail/{{good.id}}"><img src="/{{good.img_url}}"></a>
+					<a href="goodDetail/{{good.id}}"><img src="/static/{{good.img_url}}"></a>
 					<div class="prize">¥ {{good.price}}</div>
 				</li>
-				{%endfor%}-->
-				<li>
-					<h4><a href="#">葡萄</a></h4>
-					<a href="#"><img src="/static/images/goods/goods002.jpg"></a>
-					<div class="prize">¥ 5.50</div>
-				</li>
-				<li>
-					<h4><a href="#">柠檬</a></h4>
-					<a href="#"><img src="/static/images/goods/goods001.jpg"></a>
-					<div class="prize">¥ 3.90</div>
-				</li>
-				<li>
-					<h4><a href="#">奇异果</a></h4>
-					<a href="#"><img src="/static/images/goods/goods012.jpg"></a>
-					<div class="prize">¥ 25.80</div>
-				</li>
+				{%endfor%}
+<!--				<li>-->
+<!--					<h4><a href="#">葡萄</a></h4>-->
+<!--					<a href="#"><img src="/static/images/goods/goods002.jpg"></a>-->
+<!--					<div class="prize">¥ 5.50</div>-->
+<!--				</li>-->
+<!--				<li>-->
+<!--					<h4><a href="#">柠檬</a></h4>-->
+<!--					<a href="#"><img src="/static/images/goods/goods001.jpg"></a>-->
+<!--					<div class="prize">¥ 3.90</div>-->
+<!--				</li>-->
+<!--				<li>-->
+<!--					<h4><a href="#">奇异果</a></h4>-->
+<!--					<a href="#"><img src="/static/images/goods/goods012.jpg"></a>-->
+<!--					<div class="prize">¥ 25.80</div>-->
+<!--				</li>-->
 			</ul>
 		</div>
 	</div>

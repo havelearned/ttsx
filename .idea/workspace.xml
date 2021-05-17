@@ -19,16 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="hello">
-      <change beforePath="$PROJECT_DIR$/.idea/ttsx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ttsx.iml" afterDir="false" />
+    <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/static/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/static/js/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ttsx_dev_01/manage.py" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
@@ -87,19 +87,44 @@
       <recent name="E:\Python\ttsx\ttsx_dev_01\templates" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.dubug">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ttsx_dev_goods.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="ce973e5e-cbc1-48b1-b997-7ece6be13710/schema/ttsxdb/table/ttsx_dev_goods.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="dubug" type="PythonConfigurationType" factoryName="Python">
+      <module name="ttsx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Python\ttsx\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ttsx_dev_01" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ttsx_dev_01/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ttsx" />
@@ -123,8 +148,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.dubug" />
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Database Script.ttsx_dev_goods.sql" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.ttsx_dev_goods.sql" />
         <item itemvalue="Python.manage" />
       </list>
     </recent_temporary>
@@ -142,7 +173,8 @@
       <updated>1619421138255</updated>
       <workItem from="1620311513951" duration="98000" />
       <workItem from="1620311642025" duration="4230000" />
-      <workItem from="1621167444974" duration="9638000" />
+      <workItem from="1621167444974" duration="9675000" />
+      <workItem from="1621210641711" duration="9743000" />
     </task>
     <task id="LOCAL-00001" summary="项目创建">
       <created>1619422813581</created>
@@ -200,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619753645832</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hello">
+      <created>1621177198037</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621177198037</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +267,7 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ttsx$manage.coverage" NAME="manage Coverage Results" MODIFIED="1621169818355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ttsx_dev_01" />
+    <SUITE FILE_PATH="coverage/ttsx$dubug.coverage" NAME="dubug Coverage Results" MODIFIED="1621218746465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ttsx_dev_01" />
+    <SUITE FILE_PATH="coverage/ttsx$manage.coverage" NAME="manage Coverage Results" MODIFIED="1621216352717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ttsx_dev_01" />
   </component>
 </project>

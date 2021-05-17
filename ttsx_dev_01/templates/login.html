@@ -23,13 +23,13 @@
 				<div class="form_input">
 					<form action="/loging/" method="POST">
 						{%csrf_token%}
-						<input type="text" name="user_name" class="name_input" placeholder="请输入用户名">
+						<input type="text" name="user_name" class="name_input" placeholder="请输入用户名" value="{{loginName}}">
 						<div class="user_error">输入错误</div>
 						<input type="password" name="pwd" class="pass_input" placeholder="请输入密码">
 						<div class="pwd_error" style="display:block">{{msg}}</div>
 						<div class="more_input clearfix">
-							<input type="checkbox" name="checkPwd" value = '1'>
-							<label>记住用户名</label>
+							<input type="checkbox" name="checkPwd"  checked="checked">
+							<label>记住我三天</label>
 							<a href="#">忘记密码</a>
 						</div>
 						<input type="submit" name="" value="登录" class="input_submit">

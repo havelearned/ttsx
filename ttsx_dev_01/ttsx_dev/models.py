@@ -55,6 +55,10 @@ class Goods(models.Model):
     price = models.IntegerField(verbose_name='单价')  # 商品 单价格
     intro = models.TextField(verbose_name='介绍')  # 商品 介绍
     unit = models.CharField(max_length=30, default=K, verbose_name='重量', choices=UNIT_CHOICES)  # 重量
+    goods_type=models.ForeignKey("Type",on_delete=models.CASCADE, verbose_name='类型')
+
+    def __str__(self):
+        return self.goods_type
     # type_id = models.IntegerField(verbose_name='商品类型')  # 商品类型
 
 

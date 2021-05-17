@@ -23,7 +23,9 @@ urlpatterns = [ path('admin/', admin.site.urls),
                 path('index/',views.toindex),
                 path('login/',views.tologin),
                 path('register/',views.toregister),
-                path('loging/',views.uselogin)
+                path('loging/',views.uselogin),
+                path('register/useRegister/',views.useRegister),
+                path('loging/goodDetail/<int:id>/',views.goodDetail)
                 ]+ static(settings.IMG_URL, document_root=settings.IMG_ROOT)
 # path('login/', views.login_view),
 # path('loginOut/', views.login_out),

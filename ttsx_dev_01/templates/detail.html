@@ -29,7 +29,7 @@
 					<a href="user_center_order.html">我的订单</a>
 				</div>
 			</div>
-		</div>		
+		</div>
 	</div>
 
 	<div class="search_bar clearfix">
@@ -47,8 +47,8 @@
 	<div class="navbar_con">
 		<div class="navbar clearfix">
 			<div class="subnav_con fl">
-				<h1>全部商品分类</h1>	
-				<span></span>			
+				<h1>全部商品分类</h1>
+				<span></span>
 				<ul class="subnav">
 					<li><a href="#" class="fruit">新鲜水果</a></li>
 					<li><a href="#" class="seafood">海鲜水产</a></li>
@@ -77,30 +77,30 @@
 	</div>
 
 	<form id="detail">
-		{{% csrf_token %}}
+
 	<div class="goods_detail_con clearfix">
-		<div class="goods_detail_pic fl"><img src="/media/{{good.img_url}}"></div>
-		<input type="hidden" name="good_id" value="{{good.id}}">
+		<div class="goods_detail_pic fl"><img src="/static/{{good_detail.img_url}}"></div>
+		<input type="hidden" name="good_id" value="{{good_detail.id}}">
 
 		<div class="goods_detail_list fr">
-			<h3>{{good.good_name}}</h3>
-			<p>{{good.intro}}</p>
+			<h3>{{good_detail.good_name}}</h3>
+			<p>{{good_detail.intro}}</p>
 <!--			<h3>大兴大棚草莓</h3>-->
 <!--			<p>草莓浆果柔软多汁，味美爽口，适合速冻保鲜贮藏。草莓速冻后，可以保持原有的色、香、味，既便于贮藏，又便于外销。</p>-->
 			<div class="prize_bar">
-				<span class="show_pirze">¥<em>{{good.price}}</em></span>
+				<span class="show_pirze">¥<em>{{good_detail.price}}</em></span>
 <!--				<span class="show_pirze">¥<em>16.80</em></span>-->
-				<span class="show_unit">单  位：500g</span>
+				<span class="show_unit">单 {{good_detail.unit}} 位：500g</span>
 			</div>
 			<div class="goods_num clearfix">
 				<div class="num_name fl">数 量：</div>
 				<div class="num_add fl">
 					<input type="text" class="num_show fl" value="1">
 					<a href="javascript:;" class="add fr">+</a>
-					<a href="javascript:;" class="minus fr">-</a>	
-				</div> 
+					<a href="javascript:;" class="minus fr">-</a>
+				</div>
 			</div>
-			<div class="total">总价：<em>{{good.price}}</em></div>
+			<div class="total">总价：<em></em></div>
 			<div class="operate_btn">
 <!--				<a href="javascript:;" class="buy_btn">立即购买</a>-->
 <!--				<a href="javascript:;" class="add_cart" id="add_cart">加入购物车</a>				-->
@@ -152,7 +152,7 @@
 			<span>|</span>
 			<a href="#">招聘人才</a>
 			<span>|</span>
-			<a href="#">友情链接</a>		
+			<a href="#">友情链接</a>
 		</div>
 		<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
 		<p>电话：010-****888    京ICP备*******8号</p>
@@ -180,6 +180,6 @@
 			});
 		})
 	</script>
-	
+
 </body>
 </html>

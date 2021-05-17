@@ -1,8 +1,14 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponse,HttpRequest
+from django.http import HttpResponse, HttpRequest
+from ttsx_dev import models
 import json
+import re
 
 
+def goodDetail(request,id):
+    good_detail = models.Goods.objects.get(id=id)
+    return render(request, 'detail.html',{'user_name':request.session.get('user_name',None),
+                                          'good_detail':good_detail})
 #
 #
 # # Create your views here.
@@ -83,6 +89,38 @@ import json
 #         return render(request, 'register.html')
 #         # return render(request, 'login.html')
 
+def useRegister(request):
+    user_name = request.POST.get('user_name')
+    pwd = request.POST.get('pwd')
+    cpwd = request.POST.get('cpwd')
+    phone = request.POST.get('phone')
+    allow = request.POST.get('allow')
+
+    # 用户名需要中文
+    result_name = re.compile(r"[\u4e00-\u9fa5]")
+    # 密码只能大小写和数字
+    result_password = re.compile(r"^[a-zA-Z]\w{6,18}")
+    # 手机只能是11位数
+    result_phone = re.compile(r"^1[3578]\d{9}$")
+    if not (result_name.match(user_name)):
+        return render(request, "register.html", {"nameError": "用户名只能是中文"})
+    if pwd == cpwd and result_password.match(pwd):
+        return render(request, "register.html", {"passwordErroe": "两次输入的密码错误"})
+    if not (result_phone.match(phone)):
+        return render(request, "register.html", {"phoneError": "不正确的手机号"})
+
+    if allow == 'on':
+        if (models.User.objects.filter(user_name=user_name).exists()) or (
+                models.User.objects.filter(phone=phone).exists()):
+            return render(request, "register.html", {"nameError": "用户名已经存在", 'phoneError': '手机号已经存在'})
+        else:
+            user = models.User(user_name=user_name, pwd=pwd, status=1, phone=phone)
+            user.save()
+    else:
+        return render(request, "register.html", {"allowError": "您不必须同意使用条款"})
+
+    return render(request, "login.html", {"loginName": user_name})
+
 
 def toindex(request):
     return render(request, 'index.html')
@@ -100,12 +138,28 @@ def uselogin(request):
     user_name = request.POST.get('user_name')
     pwd = request.POST.get('pwd')
     checkPwd = request.POST.get('checkPwd')
-    print(checkPwd)
 
-    if user_name == 'luojiaju' and pwd == '123123':
-        return redirect('index.html')
+    if request.session.get("is_login") == 1 and user_name == request.session.get('user_name'):
+        type = models.Type.objects.all()
+        goods = models.Goods.objects.filter(goods_type_id=1)
+        # 登录过直接去首页
+        return render(request, 'index.html', {'user_name': user_name,
+                                              'type_list': type,
+                                              'goods_list': goods
+                                              },
+
+                      )
+
+    if (models.User.objects.filter(user_name=user_name).exists()) and (models.User.objects.filter(pwd=pwd).exists()):
+        if checkPwd == 'on':
+            request.session['is_login'] = 1
+            request.session['user_name'] = user_name
+            request.session.set_expiry(60 * 60 * 24 * 3)
+            type = models.Type.objects.all()
+
+        return render(request, 'index.html', {'user_name': user_name, 'type': type})
     else:
-        return render(request,'login.html',{'msg':'用户名或者密码错误'})
+        return render(request, 'login.html', {'msg': '用户名或者密码错误'})
 
 # 注意事项：
 # 1. redirect 是重定向 给出URL路径即可跳转到对应的界面
@@ -113,5 +167,3 @@ def uselogin(request):
 # 3. from 请求表达action属性值必须是login/ 结尾，没有斜杠结尾会报错
 # 4. 获取表单参数可以有：request.POST[xxx] 这样做出错率相当的高,如果没有这个参数那么直接报错，
 #       request.POST.get(); 这样做可以避免报错，即使没有这个参数会自动赋值为：null
-
-
