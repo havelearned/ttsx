@@ -1,14 +1,41 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponse, HttpRequest
+from django.http import HttpResponse, HttpRequest, HttpResponseRedirect
 from ttsx_dev import models
 import json
 import re
 
 
-def goodDetail(request,id):
+def check_login(func):
+    def warpper(request, *args, **kwargs):
+        is_login = request.session.get("is_login", False)
+        if is_login:
+            print(is_login)
+            return func(request, *args, **kwargs)
+        else:
+            print(is_login)
+            return HttpResponseRedirect("/loging")
+
+    return warpper
+
+
+@check_login
+def to_cart(request):
+    if request.method == "POST":
+        user_name = request.session['user_name']
+    if request.method == "GET":
+        print("==========to_cart============")
+        user_name = request.session['user_name']
+
+        print(user_name)
+        return render(request, "cart.html")
+
+
+def goodDetail(request, id):
     good_detail = models.Goods.objects.get(id=id)
-    return render(request, 'detail.html',{'user_name':request.session.get('user_name',None),
-                                          'good_detail':good_detail})
+    return render(request, 'detail.html', {'user_name': request.session.get('user_name', None),
+                                           'good_detail': good_detail})
+
+
 #
 #
 # # Create your views here.
@@ -123,7 +150,9 @@ def useRegister(request):
 
 
 def toindex(request):
-    return render(request, 'index.html')
+    type = models.Type.objects.all()
+    goods = models.Goods.objects.filter(goods_type_id=1)
+    return render(request, 'index.html', {'type_list': type, 'goods_list': goods}, )
 
 
 def tologin(request):
@@ -160,6 +189,16 @@ def uselogin(request):
         return render(request, 'index.html', {'user_name': user_name, 'type': type})
     else:
         return render(request, 'login.html', {'msg': '用户名或者密码错误'})
+
+
+def add_cart(request):
+    if request.method == "POST":
+        good_id = request.POST.get("good_id")
+        print(good_id)
+        good = models.Goods.objects.get(id=good_id)
+        print(type(good))
+
+    return render(request, '/to_cart/')
 
 # 注意事项：
 # 1. redirect 是重定向 给出URL路径即可跳转到对应的界面

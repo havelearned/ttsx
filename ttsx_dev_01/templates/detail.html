@@ -16,15 +16,15 @@
 					欢迎您：<em>张 山</em>
 				</div>
 				<div class="login_btn fl">
-					<a href="login.html">登录</a>
+					<a href="/login/">登录</a>
 					<span>|</span>
-					<a href="register.html">注册</a>
+					<a href="/register/">注册</a>
 				</div>
 				<div class="user_link fl">
 					<span>|</span>
 					<a href="user_center_info.html">用户中心</a>
 					<span>|</span>
-					<a href="cart.html">我的购物车</a>
+					<a href="/to_cart/">我的购物车</a>
 					<span>|</span>
 					<a href="user_center_order.html">我的订单</a>
 				</div>
@@ -39,7 +39,7 @@
 			<input type="button" class="input_btn fr" name="" value="搜索">
 		</div>
 		<div class="guest_cart fr">
-			<a href="cart.html" class="cart_name fl">我的购物车</a>
+			<a href="/to_cart/" class="cart_name fl">我的购物车</a>
 			<div class="goods_count fl" id="show_count">1</div>
 		</div>
 	</div>
@@ -59,7 +59,7 @@
 				</ul>
 			</div>
 			<ul class="navlist fl">
-				<li><a href="">首页</a></li>
+				<li><a href="/index/">首页</a></li>
 				<li class="interval">|</li>
 				<li><a href="">手机生鲜</a></li>
 				<li class="interval">|</li>
@@ -76,8 +76,8 @@
 		<a href="#">商品详情</a>
 	</div>
 
-	<form id="detail">
-
+	<form id="detail" action="/add_cart/" method="post">
+{%csrf_token%}
 	<div class="goods_detail_con clearfix">
 		<div class="goods_detail_pic fl"><img src="/static/{{good_detail.img_url}}"></div>
 		<input type="hidden" name="good_id" value="{{good_detail.id}}">
@@ -104,7 +104,7 @@
 			<div class="operate_btn">
 <!--				<a href="javascript:;" class="buy_btn">立即购买</a>-->
 <!--				<a href="javascript:;" class="add_cart" id="add_cart">加入购物车</a>				-->
-				<input type="button" class="add_cart" id="add_cart" value="加入购物车">
+				<input type="submit" class="add_cart" id="add_cart" value="加入购物车">
 			</div>
 		</div>
 	</div>
@@ -159,7 +159,7 @@
 	</div>
 	<div class="add_jump"></div>
 
-	<script type="text/javascript" src="/static/js/jquery-1.12.2.js"></script>
+	<script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
 	<script type="text/javascript">
 		var $add_x = $('#add_cart').offset().top;
 		var $add_y = $('#add_cart').offset().left;

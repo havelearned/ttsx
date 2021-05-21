@@ -19,7 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="push" />
+    <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="push">
+      <change beforePath="$PROJECT_DIR$/.idea/ttsx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ttsx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/place_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/place_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/user_center_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/user_center_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/user_center_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/user_center_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/user_center_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/user_center_site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +71,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ttsx_dev_01/manage.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
@@ -140,16 +153,14 @@
     <list>
       <item itemvalue="Python.dubug" />
       <item itemvalue="Python.manage" />
-      <item itemvalue="Database Script.ttsx_dev_goods.sql" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.ttsx_dev_goods.sql" />
         <item itemvalue="Python.manage" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -259,12 +270,14 @@
     <MESSAGE value="push" />
     <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="301" y="60" key="SettingsEditor" timestamp="1621558827265">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="60" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1621558827265" />
+  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ttsx$dubug.coverage" NAME="dubug Coverage Results" MODIFIED="1621218746465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ttsx_dev_01" />
-    <SUITE FILE_PATH="coverage/ttsx$manage.coverage" NAME="manage Coverage Results" MODIFIED="1621216352717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ttsx_dev_01" />
   </component>
 </project>
