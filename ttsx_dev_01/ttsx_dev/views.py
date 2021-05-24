@@ -4,6 +4,12 @@ from ttsx_dev import models
 import json
 import re
 
+# 登录退出
+def loginOut(request):
+    #清除所有的session
+    request.session.flush()
+    #重定向到index请求
+    return  HttpResponseRedirect("/login")
 
 def check_login(func):
     def warpper(request, *args, **kwargs):
@@ -32,8 +38,7 @@ def to_cart(request):
 
 def goodDetail(request, id):
     good_detail = models.Goods.objects.get(id=id)
-    return render(request, 'detail.html', {'user_name': request.session.get('user_name', None),
-                                           'good_detail': good_detail})
+    return render(request, 'detail.html', {'user_name': request.session.get('user_name', None), 'good_detail': good_detail})
 
 
 #
@@ -193,12 +198,11 @@ def uselogin(request):
 
 def add_cart(request):
     if request.method == "POST":
-        good_id = request.POST.get("good_id")
+        pass
+    if request.method == "GET":
+        good_id = request.GET.get("good_id")
         print(good_id)
-        good = models.Goods.objects.get(id=good_id)
-        print(type(good))
-
-    return render(request, '/to_cart/')
+    return HttpResponseRedirect('/to_cart')
 
 # 注意事项：
 # 1. redirect 是重定向 给出URL路径即可跳转到对应的界面

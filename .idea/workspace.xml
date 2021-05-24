@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="push">
-      <change beforePath="$PROJECT_DIR$/.idea/ttsx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ttsx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/hander.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/detail.html" afterDir="false" />
@@ -41,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,7 +59,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1rhGuyhDmTuHajvKTzEi5iS3mrD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,7 +74,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ttsx_dev_01/manage.py" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
@@ -113,9 +116,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="E:\Python\ttsx\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ttsx_dev_01" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -271,6 +274,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="254" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621841443011">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1621841443011" />
+    <state x="580" y="183" key="FileChooserDialogImpl" timestamp="1621841441545">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="183" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1621841441545" />
+    <state width="1578" height="217" key="GridCell.Tab.0.bottom" timestamp="1621841790626">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1578" height="217" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1621841790626" />
+    <state width="1578" height="217" key="GridCell.Tab.0.center" timestamp="1621841790626">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1578" height="217" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1621841790626" />
+    <state width="1578" height="217" key="GridCell.Tab.0.left" timestamp="1621841790626">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1578" height="217" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1621841790626" />
+    <state width="1578" height="217" key="GridCell.Tab.0.right" timestamp="1621841790626">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1578" height="217" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1621841790626" />
     <state x="301" y="60" key="SettingsEditor" timestamp="1621558827265">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

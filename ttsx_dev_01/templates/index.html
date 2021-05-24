@@ -10,17 +10,24 @@
 	<script type="text/javascript" src="/static/js/slide.js"></script>
 </head>
 <body>
+<!--
 	<div class="header_con">
 		<div class="header">
-			<div class="welcome fl">欢迎来到天天生鲜!</div> {{user_name}}
+			<div class="welcome fl">欢迎来到天天生鲜!</div>
 			<div class="fr">
-				<div class="login_info fl">
-				</div>
+				{% if user_name %}
 				<div class="login_btn fl">
-					<a href="/login">登录</a>
+					<a href="/login/">欢迎您：{{user_name}}</a>
 					<span>|</span>
-					<a href="/register">注册</a>
+					<a href="/loginOut/">退出登录</a>
 				</div>
+				{%else%}
+				<div class="login_btn fl">
+					<a href="/login/">登录</a>
+					<span>|</span>
+					<a href="/register/">注册</a>
+				</div>
+				{%endif%}
 				<div class="user_link fl">
 					<span>|</span>
 					<a href="user_center_info.html">用户中心</a>
@@ -29,9 +36,13 @@
 					<span>|</span>
 					<a href="user_center_order.html">我的订单</a>
 				</div>
+
 			</div>
 		</div>
 	</div>
+-->
+
+{% include 'hander.html'%}
 
 	<div class="search_bar clearfix">
 		<a href="index.html" class="logo fl"><img src="/static/images/logo.png"></a>
@@ -326,7 +337,7 @@
 		</div>
 	</div>
 
-	<div class="footer">
+	<!--<div class="footer">
 		<div class="foot_link">
 			<a href="#">关于我们</a>
 			<span>|</span>
@@ -338,7 +349,8 @@
 		</div>
 		<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
 		<p>电话：010-****888    京ICP备*******8号</p>
-	</div>
+	</div>-->
+	{%include 'footer.html'%}
 	<script type="text/javascript" src="/static/js/slideshow.js"></script>
 	<script type="text/javascript">
 		BCSlideshow('focuspic');
