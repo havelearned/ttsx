@@ -83,9 +83,10 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',  # 链接url
         'NAME': 'ttsxdb',  # 数据库名称
         'USER': 'root',  # 登录名称
-        'PASSWORD': '3333',  # 登录密码
-        'HOST': '121.196.106.152',  # IP地址
-        # 'HOST': 'localhost',  # IP地址
+        # 'PASSWORD': '3333',  # 登录密码
+        'PASSWORD': 'mysql2020',  # 登录密码
+        # 'HOST': '121.196.106.152',  # IP地址
+        'HOST': 'localhost',  # IP地址
         'PORT': '3306',  # 端口号
     }
 }

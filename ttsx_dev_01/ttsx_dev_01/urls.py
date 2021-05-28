@@ -18,18 +18,32 @@ from django.urls import path
 from ttsx_dev import views
 from django.conf.urls.static import static
 from django.conf import settings
+from ttsx_dev.dao import Router
 
-urlpatterns = [path('admin/', admin.site.urls),
-               path('index/', views.toindex),
-               path('login/', views.tologin),
-               path('register/', views.toregister),
-               path('loging/', views.uselogin),
-               path('register/useRegister/', views.useRegister),
-               path('goodDetail/<int:id>/', views.goodDetail),
-               path('to_cart/', views.to_cart),
-               path('add_cart/', views.add_cart),
-               path('loginOut/', views.loginOut),
-               path('', views.toindex)
+from ttsx_dev.dao import UserDao
+
+# path('admin/', admin.site.urls),
+#                path('index/', views.toindex),
+#                path('login/', views.tologin),
+#                path('register/', views.toregister),
+#                # path('loging/', views.uselogin),
+#                path('register/useRegister/', views.useRegister),
+#                path('goodDetail/<int:id>/', views.goodDetail),
+#                path('to_cart/', views.to_cart),
+#                path('add_cart/', views.add_cart),
+#                path('loginOut/', views.loginOut),
+#                path('', views.toindex),
+urlpatterns = [
+               # 测试内容与实际项目无关
+               path('userId/<int:id>/', UserDao.queryUserById),
+               path('userLogin/', UserDao.userLogin), #用户 登录
+
+               # 超连接路由
+                path('', Router.toindex),
+                path('index/',Router.toindex),
+                path('login/', Router.toLogin),
+                path('register/', Router.toregister),
+
                ] + static(settings.IMG_URL, document_root=settings.IMG_ROOT)
 # path('login/', views.login_view),
 # path('loginOut/', views.login_out),
