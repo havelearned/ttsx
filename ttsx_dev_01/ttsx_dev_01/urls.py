@@ -34,17 +34,17 @@ from ttsx_dev.dao import UserDao
 #                path('loginOut/', views.loginOut),
 #                path('', views.toindex),
 urlpatterns = [
-               # 测试内容与实际项目无关
-               path('userId/<int:id>/', UserDao.queryUserById),
-               path('userLogin/', UserDao.userLogin), #用户 登录
+                  # 测试内容与实际项目无关
+                  path('userId/<int:id>/', UserDao.queryUserById),
+                  path('userLogin/', UserDao.userLogin),  # 用户 登录
 
-               # 超连接路由
-                path('', Router.toindex),
-                path('index/',Router.toindex),
-                path('login/', Router.toLogin),
-                path('register/', Router.toregister),
+                  # 超连接路由
+                  path('', Router.toindex),
+                  path('index/', Router.toindex),
+                  path('login/', Router.toLogin),
+                  path('register/', Router.toregister),
 
-               ] + static(settings.IMG_URL, document_root=settings.IMG_ROOT)
+              ] + static(settings.IMG_URL, document_root=settings.IMG_ROOT)
 # path('login/', views.login_view),
 # path('loginOut/', views.login_out),
 # path('register/', views.register_view),

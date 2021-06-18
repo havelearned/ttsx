@@ -20,20 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f4b107-0be6-4e22-a210-3d17124741f4" name="Default Changelist" comment="push">
-      <change afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/dao/AdderssDao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/dao/CartDao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/dao/Goods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/dao/OrderDao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/dao/OrderDetailDao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/dao/Router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/dao/TypeDao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/dao/UserDao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/dao/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/hander.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/hander.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/dao/Router.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev/dao/Router.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttsx_dev_01/ttsx_dev_01/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +70,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -278,34 +267,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="254" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622163290152">
+    <state x="102" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623980087658">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="254" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1622163290152" />
+    <state x="102" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1623980087658" />
     <state x="580" y="183" key="FileChooserDialogImpl" timestamp="1622163289393">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="183" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1622163289393" />
-    <state width="1578" height="187" key="GridCell.Tab.0.bottom" timestamp="1622169197791">
+    <state width="1578" height="262" key="GridCell.Tab.0.bottom" timestamp="1623986007936">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="187" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1622169197791" />
-    <state width="1578" height="187" key="GridCell.Tab.0.center" timestamp="1622169197791">
+    <state width="1578" height="262" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1623986007936" />
+    <state width="1578" height="262" key="GridCell.Tab.0.center" timestamp="1623986007936">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="187" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1622169197791" />
-    <state width="1578" height="187" key="GridCell.Tab.0.left" timestamp="1622169197791">
+    <state width="1578" height="262" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1623986007936" />
+    <state width="1578" height="262" key="GridCell.Tab.0.left" timestamp="1623986007936">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="187" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1622169197791" />
-    <state width="1578" height="187" key="GridCell.Tab.0.right" timestamp="1622169197791">
+    <state width="1578" height="262" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1623986007936" />
+    <state width="1578" height="262" key="GridCell.Tab.0.right" timestamp="1623986007936">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="187" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1622169197791" />
-    <state x="301" y="60" key="SettingsEditor" timestamp="1622162023574">
+    <state width="1578" height="262" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1623986007936" />
+    <state x="301" y="60" key="SettingsEditor" timestamp="1623980066251">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="60" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1622162023574" />
+    <state x="301" y="60" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1623980066251" />
     <state x="463" y="180" key="search.everywhere.popup" timestamp="1622162755720">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

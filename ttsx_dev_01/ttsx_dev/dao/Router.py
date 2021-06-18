@@ -10,13 +10,32 @@ import re
 # urls.py  path('xxxx/',xxx)  这个玩意就必须在后面加个 /
 # 方法 render(requset,'xxxx.html')
 
-def toLogin(request,*args):
+# 装饰器
+def isSuccess(fun):
+    def wrapper(request, *args, **kwargs):
+        if request.session['user_name']:
+            username = request.session['user_name']
+            isExist = models.User.objects.get(user_name=username)
+            if isExist:
+                print("数据库存在这个", username)
+
+                return fun(request, *args, **kwargs)
+        else:
+            print("没有登录需要登录")
+            return render(request, "login.html")
+
+    return wrapper
+
+
+def toLogin(request, *args):
     print(args)
     return render(request, "login.html")
 
 
+@isSuccess
 def toindex(request):
-    return render(request, "index.html")
+    username = request.session['user_name']
+    return render(request, "index.html",{"user_name":username})
 
 
 def toregister(request):
